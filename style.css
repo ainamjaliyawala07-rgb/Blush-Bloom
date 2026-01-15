@@ -1,0 +1,24 @@
+body { font-family: Arial; background: #fff0f5; text-align: center; }
+.center { display: flex; flex-direction: column; align-items: center; margin-top: 100px; }
+
+input, button, select {
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product {
+  background: white;
+  padding: 10px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+button { background: hotpink; color: white; border: none; cursor: pointer; }
