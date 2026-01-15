@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GlowUp Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>GlowUp 💄</h1>
+
+<select id="category" onchange="filter()">
+  <option value="all">All</option>
+  <option value="lip">Lip</option>
+  <option value="face">Face</option>
+  <option value="eye">Eye</option>
+</select>
+
+<div class="products" id="products"></div>
+
+<h2>🛒 Cart</h2>
+<ul id="cart"></ul>
+<h3>Total: ₹<span id="total">0</span></h3>
+
+<a href="checkout.html"><button>Checkout</button></a>
+
+<script src="script.js"></script>
+</body>
+</html>
